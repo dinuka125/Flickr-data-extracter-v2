@@ -5,8 +5,8 @@ import pandas as pd
 from datetime import date
 
 
-api_key ="35883a31753987d251ef52f0cc2dcb79"
-api_secret = "29eebe28b4a9a808"
+api_key ="add your api key here"
+api_secret = "add your api secret key here"
 min_date = '2018-01-01'
 out_dir = "static"
 
