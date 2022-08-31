@@ -1,0 +1,197 @@
+pic_id,Camera_Make,Camera_Model,Aperture,Exposure_Program,ISO,Metering_Mode,Flash,Focal_Length,Color_Space,Lens_Model
+52322009719,,,,,,,,,Uncalibrated,
+52320737584,FUJIFILM,X-T3,2.8,Manual,400.0,Spot,No Flash,280.0,sRGB,XF200mmF2 R LM OIS WR + 1.4x F2
+52318856567,NIKON,COOLPIX P900,3.2,Program AE,100.0,Multi-segment,"Off, Did not fire",7.1,sRGB,XF200mmF2 R LM OIS WR + 1.4x F2
+52317010009,NIKON,COOLPIX P900,3.2,Program AE,100.0,Multi-segment,"Off, Did not fire",7.1,sRGB,XF200mmF2 R LM OIS WR + 1.4x F2
+52316544790,NIKON,COOLPIX P900,3.2,Program AE,100.0,Multi-segment,"Off, Did not fire",7.1,sRGB,XF200mmF2 R LM OIS WR + 1.4x F2
+52316516929,NIKON,COOLPIX P900,3.2,Program AE,100.0,Multi-segment,"Off, Did not fire",7.1,sRGB,XF200mmF2 R LM OIS WR + 1.4x F2
+52314264554,NIKON CORPORATION,NIKON D5,11.0,Aperture-priority AE,200.0,Multi-segment,"On, Return detected",105.0,sRGB,XF200mmF2 R LM OIS WR + 1.4x F2
+52313999113,NIKON CORPORATION,NIKON D5,11.0,Aperture-priority AE,200.0,Multi-segment,"On, Return detected",105.0,sRGB,XF200mmF2 R LM OIS WR + 1.4x F2
+52312079122,Canon,Canon EOS 60D,5.6,Manual,200.0,Multi-segment,"Off, Did not fire",35.0,sRGB,EF24-105mm f/4L IS USM
+52313311170,Canon,Canon EOS 60D,2.8,Manual,100.0,Center-weighted average,"Off, Did not fire",50.0,sRGB,EF50mm f/1.8 II
+52313000050,HUAWEI,YAL-L21,1.8,Program AE,50.0,Multi-segment,No Flash,4.8,sRGB,EF50mm f/1.8 II
+52308935673,NIKON CORPORATION,NIKON D7200,6.7,Aperture-priority AE,400.0,Center-weighted average,"Off, Did not fire",390.0,Uncalibrated,EF50mm f/1.8 II
+52307808069,DJI,FC7203,2.8,Manual,100.0,Center-weighted average,No flash function,4.5,sRGB,EF50mm f/1.8 II
+52307819940,DJI,FC7203,2.8,Program AE,100.0,Center-weighted average,No flash function,4.5,sRGB,EF50mm f/1.8 II
+52307819720,DJI,FC7203,2.8,Program AE,100.0,Center-weighted average,No flash function,4.5,sRGB,EF50mm f/1.8 II
+52306568867,DJI,FC7203,2.8,Program AE,100.0,Center-weighted average,No flash function,4.5,sRGB,EF50mm f/1.8 II
+52307290776,DJI,FC7203,2.8,Program AE,100.0,Center-weighted average,No flash function,4.5,sRGB,EF50mm f/1.8 II
+52307819485,DJI,FC7203,2.8,Program AE,100.0,Center-weighted average,No flash function,4.5,sRGB,EF50mm f/1.8 II
+52307290536,DJI,FC7203,2.8,Program AE,200.0,Center-weighted average,No flash function,4.5,sRGB,EF50mm f/1.8 II
+52306845253,Panasonic,DC-G90,6.3,Landscape,200.0,Multi-segment,"Off, Did not fire",44.0,sRGB,EF50mm f/1.8 II
+52306844633,Panasonic,DC-G90,5.6,Program AE,250.0,Multi-segment,"Off, Did not fire",60.0,sRGB,EF50mm f/1.8 II
+52306823943,Panasonic,DC-G90,5.6,Portrait,200.0,Multi-segment,"Off, Did not fire",43.0,sRGB,EF50mm f/1.8 II
+52306347031,Panasonic,DC-G90,9.0,Program AE,200.0,Multi-segment,"Off, Did not fire",12.0,sRGB,EF50mm f/1.8 II
+52306261204,FUJIFILM,X-T3,3.2,Manual,400.0,Spot,No Flash,280.0,sRGB,XF200mmF2 R LM OIS WR + 1.4x F2
+52303582907,FUJIFILM,X-T3,3.2,Manual,400.0,Spot,No Flash,280.0,Uncalibrated,XF200mmF2 R LM OIS WR + 1.4x F2
+52304822375,FUJIFILM,X-T3,3.2,Manual,400.0,Spot,No Flash,280.0,Uncalibrated,XF200mmF2 R LM OIS WR + 1.4x F2
+52304768358,FUJIFILM,X-T3,3.2,Manual,400.0,Spot,No Flash,280.0,Uncalibrated,XF200mmF2 R LM OIS WR + 1.4x F2
+52303582522,FUJIFILM,X-T3,3.2,Manual,400.0,Spot,No Flash,280.0,Uncalibrated,XF200mmF2 R LM OIS WR + 1.4x F2
+52304768113,FUJIFILM,X-T3,3.2,Manual,400.0,Spot,No Flash,280.0,Uncalibrated,XF200mmF2 R LM OIS WR + 1.4x F2
+52303646331,NIKON,COOLPIX P900,3.5,Program AE,100.0,Multi-segment,"Off, Did not fire",9.8,sRGB,XF200mmF2 R LM OIS WR + 1.4x F2
+52301068668,Canon,Canon EOS 6D Mark II,5.6,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",168.0,sRGB,EF70-200mm f/4L USM
+52299045367,SONY,ILCE-6400,4.5,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",38.0,sRGB,E 18-135mm F3.5-5.6 OSS
+52300523190,SONY,ILCE-6400,6.3,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",200.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52299044572,SONY,ILCE-6400,6.3,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",214.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52300522000,SONY,ILCE-6400,6.3,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",240.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52300501030,SONY,ILCE-6400,6.3,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",240.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52297705132,NIKON,COOLPIX P900,6.3,Manual,1600.0,Multi-segment,"Off, Did not fire",196.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52299056925,FUJIFILM,X-T3,4.0,Manual,640.0,Multi-segment,No Flash,280.0,sRGB,XF200mmF2 R LM OIS WR + 1.4x F2
+52296006822,FUJIFILM,X-T3,2.8,Manual,400.0,Spot,No Flash,280.0,sRGB,XF200mmF2 R LM OIS WR + 1.4x F2
+52297363755,Canon,Canon EOS 70D,9.0,Program AE,160.0,Multi-segment,"Off, Did not fire",40.0,Uncalibrated,EF-S18-200mm f/3.5-5.6 IS
+52297135504,Canon,Canon EOS 70D,3.5,Shutter speed priority AE,640.0,Multi-segment,"Off, Did not fire",20.0,Uncalibrated,EF-S18-200mm f/3.5-5.6 IS
+52295884727,Canon,Canon EOS 70D,3.5,Shutter speed priority AE,320.0,Multi-segment,"Off, Did not fire",18.0,Uncalibrated,EF-S18-200mm f/3.5-5.6 IS
+52296084326,NIKON,COOLPIX P900,3.2,Program AE,100.0,Multi-segment,"Off, Did not fire",7.7,sRGB,EF-S18-200mm f/3.5-5.6 IS
+52294903715,Panasonic,DMC-GH2,8.0,Aperture-priority AE,200.0,Multi-segment,"Off, Did not fire",45.0,sRGB,EF-S18-200mm f/3.5-5.6 IS
+52294268194,SONY,ILCE-6400,5.0,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",100.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52294488310,SONY,ILCE-6400,6.3,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",350.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52294004208,SONY,ILCE-6400,6.3,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",350.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52293017172,SONY,ILCE-6400,6.3,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",350.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52293054882,SONY,ILCE-6400,4.0,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",23.0,sRGB,E 18-135mm F3.5-5.6 OSS
+52294001091,SONY,ILCE-6400,4.5,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",70.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52294000356,SONY,ILCE-6400,4.5,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",70.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52294484485,SONY,ILCE-6400,4.5,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",70.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52293937028,SONY,ILCA-99M2,8.0,Aperture-priority AE,800.0,Multi-segment,"Off, Did not fire",400.0,sRGB,70-400mm F4-5.6 G SSM II
+52293619610,SONY,ILCA-99M2,8.0,Aperture-priority AE,800.0,Multi-segment,"Off, Did not fire",400.0,sRGB,70-400mm F4-5.6 G SSM II
+52293134493,SONY,ILCA-99M2,8.0,Aperture-priority AE,800.0,Multi-segment,"Off, Did not fire",400.0,sRGB,70-400mm F4-5.6 G SSM II
+52293134448,SONY,ILCA-99M2,8.0,Aperture-priority AE,800.0,Multi-segment,"Off, Did not fire",400.0,sRGB,70-400mm F4-5.6 G SSM II
+52292150502,SONY,SLT-A57,5.0,Aperture-priority AE,800.0,Multi-segment,"Off, Did not fire",13.0,sRGB,----
+52292149957,SONY,SLT-A57,5.0,Aperture-priority AE,800.0,Multi-segment,"Off, Did not fire",13.0,sRGB,----
+52292395010,SONY,SLT-A57,5.0,Aperture-priority AE,800.0,Multi-segment,"Off, Did not fire",13.0,sRGB,----
+52289073667,SONY,ILCE-6400,4.5,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",70.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52290003905,SONY,ILCA-99M2,5.6,Aperture-priority AE,1250.0,Multi-segment,"Off, Did not fire",400.0,sRGB,70-400mm F4-5.6 G SSM II
+52286916972,HUAWEI,YAL-L21,1.8,Program AE,50.0,Multi-segment,No Flash,4.8,sRGB,70-400mm F4-5.6 G SSM II
+52288117000,SONY,ILCE-6400,4.5,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",70.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52284625239,Panasonic,DMC-FZ200,8.0,Manual,160.0,Spot,"Off, Did not fire",11.9,sRGB,E 70-350mm F4.5-6.3 G OSS
+52282917207,HUAWEI,PPA-LX2,1.8,Program AE,250.0,Multi-segment,No Flash,5.4,sRGB,E 70-350mm F4.5-6.3 G OSS
+52281921068,HUAWEI,PPA-LX2,1.8,Program AE,50.0,Multi-segment,No Flash,5.4,sRGB,E 70-350mm F4.5-6.3 G OSS
+52281883046,HUAWEI,PPA-LX2,1.8,Program AE,50.0,Multi-segment,No Flash,5.4,sRGB,E 70-350mm F4.5-6.3 G OSS
+52277934352,NIKON,COOLPIX P900,6.3,Manual,1600.0,Multi-segment,"Off, Did not fire",285.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52278012851,Xiaomi,M2101K6G,2.4,Program AE,70.0,Center-weighted average,"Off, Did not fire",4.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52276741678,NIKON,COOLPIX P900,6.3,Program AE,360.0,Multi-segment,"Off, Did not fire",214.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52274493027,"FUJI PHOTO FILM CO., LTD.",SP-2000,6.3,Program AE,360.0,Multi-segment,"Off, Did not fire",214.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52274763100,Canon,Canon EOS 5D Mark III,4.0,Manual,12800.0,Center-weighted average,"Off, Did not fire",24.0,Uncalibrated,EF24-105mm f/4L IS USM
+52274272941,Canon,Canon EOS 5D Mark III,4.0,Manual,12800.0,Center-weighted average,"Off, Did not fire",99.0,Uncalibrated,EF24-105mm f/4L IS USM
+52273299877,Canon,Canon EOS 5D Mark III,4.0,Manual,12800.0,Spot,"Off, Did not fire",105.0,Uncalibrated,EF24-105mm f/4L IS USM
+52273185707,Canon,Canon EOS 5D Mark III,4.0,Manual,12800.0,Spot,"Off, Did not fire",105.0,sRGB,EF24-105mm f/4L IS USM
+52272656267,SONY,ILCE-6400,5.6,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",139.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52272655562,SONY,ILCE-6400,5.0,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",105.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52274116400,SONY,ILCE-6400,6.3,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",350.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52270890626,SONY,ILCE-6400,6.3,Aperture-priority AE,400.0,Multi-segment,"Off, Did not fire",350.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52268284897,NIKON,COOLPIX P900,6.3,Program AE,400.0,Multi-segment,"Off, Did not fire",285.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52267363997,NIKON,COOLPIX P900,6.3,Program AE,400.0,Multi-segment,"Off, Did not fire",285.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52268298255,NIKON,COOLPIX P900,6.3,Program AE,400.0,Multi-segment,"Off, Did not fire",285.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52268080164,NIKON,COOLPIX P900,6.3,Program AE,400.0,Multi-segment,"Off, Did not fire",285.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52267825488,NIKON,COOLPIX P900,6.3,Program AE,400.0,Multi-segment,"Off, Did not fire",285.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52267825408,NIKON,COOLPIX P900,6.3,Program AE,400.0,Multi-segment,"Off, Did not fire",285.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52266958869,NIKON,COOLPIX P900,5.6,Program AE,720.0,Multi-segment,"Off, Did not fire",125.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52266761824,Panasonic,DC-FZ82,5.4,Program AE,80.0,Multi-segment,"Off, Did not fire",28.1,sRGB,E 70-350mm F4.5-6.3 G OSS
+52266984220,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",74.0,sRGB,E 70-350mm F4.5-6.3 G OSS
+52266496346,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",49.1,sRGB,E 70-350mm F4.5-6.3 G OSS
+52266512413,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",35.8,sRGB,E 70-350mm F4.5-6.3 G OSS
+52266760349,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",25.2,sRGB,E 70-350mm F4.5-6.3 G OSS
+52266982785,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",89.5,sRGB,E 70-350mm F4.5-6.3 G OSS
+52266982735,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",42.3,sRGB,E 70-350mm F4.5-6.3 G OSS
+52266510818,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",53.8,sRGB,E 70-350mm F4.5-6.3 G OSS
+52266494616,Panasonic,DC-FZ82,6.3,Program AE,80.0,Multi-segment,"Off, Did not fire",53.8,sRGB,E 70-350mm F4.5-6.3 G OSS
+52288210255,SONY,ILCE-6400,13.0,Shutter speed priority AE,100.0,Multi-segment,"Off, Did not fire",24.0,sRGB,E 18-135mm F3.5-5.6 OSS
+52281008878,Canon,Canon PowerShot SX620 HS,5.6,Shutter speed priority AE,400.0,Multi-segment,"Off, Did not fire",17.5,sRGB,E 18-135mm F3.5-5.6 OSS
+52272524255,Canon,Canon PowerShot SX620 HS,5.6,Shutter speed priority AE,160.0,Multi-segment,"Off, Did not fire",29.1,sRGB,E 18-135mm F3.5-5.6 OSS
+52267814306,Canon,Canon PowerShot SX620 HS,5.6,Shutter speed priority AE,160.0,Multi-segment,"Off, Did not fire",29.1,sRGB,E 18-135mm F3.5-5.6 OSS
+52266982350,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",76.7,sRGB,E 18-135mm F3.5-5.6 OSS
+52265526972,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",174.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52266982260,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",115.0,sRGB,E 18-135mm F3.5-5.6 OSS
+52266982205,Panasonic,DC-FZ82,5.4,Program AE,80.0,Multi-segment,"Off, Did not fire",26.9,sRGB,E 18-135mm F3.5-5.6 OSS
+52266759634,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",37.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52266510148,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",47.6,sRGB,E 18-135mm F3.5-5.6 OSS
+52266759494,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",47.6,sRGB,E 18-135mm F3.5-5.6 OSS
+52266510038,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",46.2,sRGB,E 18-135mm F3.5-5.6 OSS
+52265526482,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",128.4,sRGB,E 18-135mm F3.5-5.6 OSS
+52266493816,Panasonic,DC-FZ82,5.7,Program AE,80.0,Multi-segment,"Off, Did not fire",202.9,sRGB,E 18-135mm F3.5-5.6 OSS
+52266509838,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",55.4,sRGB,E 18-135mm F3.5-5.6 OSS
+52266759139,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",53.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52266759089,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",42.3,sRGB,E 18-135mm F3.5-5.6 OSS
+52265526097,Panasonic,DC-FZ82,5.9,Program AE,80.0,Multi-segment,"Off, Did not fire",215.0,sRGB,E 18-135mm F3.5-5.6 OSS
+52266758994,Panasonic,DC-FZ82,5.9,Program AE,80.0,Multi-segment,"Off, Did not fire",215.0,sRGB,E 18-135mm F3.5-5.6 OSS
+52266509568,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52266509468,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",111.5,sRGB,E 18-135mm F3.5-5.6 OSS
+52266758769,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",57.2,sRGB,E 18-135mm F3.5-5.6 OSS
+52265525722,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",44.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52266980435,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",20.1,sRGB,E 18-135mm F3.5-5.6 OSS
+52266980395,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",38.9,sRGB,E 18-135mm F3.5-5.6 OSS
+52266980330,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",55.4,sRGB,E 18-135mm F3.5-5.6 OSS
+52266508083,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52266656015,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52265565246,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52264597627,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52265564216,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52265577383,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52264012143,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52264482130,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52264267769,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52264011838,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52264011778,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",34.8,sRGB,E 18-135mm F3.5-5.6 OSS
+52262950954,NIKON,COOLPIX P900,5.6,Program AE,400.0,Multi-segment,"Off, Did not fire",143.0,sRGB,E 18-135mm F3.5-5.6 OSS
+52261764051,Canon,Canon EOS 90D,13.0,Aperture-priority AE,100.0,Center-weighted average,No Flash,27.0,sRGB,EF-S18-55mm f/3.5-5.6 IS II
+52260740111,Canon,Canon EOS 90D,13.0,Aperture-priority AE,100.0,Center-weighted average,No Flash,27.0,sRGB,EF-S18-55mm f/3.5-5.6 IS II
+52260839684,--,--,13.0,Not Defined,6400.0,Multi-segment,No Flash,27.0,Uncalibrated,EF-S18-55mm f/4-5.6 IS STM
+52260970950,--,--,13.0,Not Defined,6400.0,Multi-segment,No Flash,27.0,Uncalibrated,EF-S18-55mm f/4-5.6 IS STM
+52260485786,--,--,13.0,Not Defined,6400.0,Multi-segment,No Flash,27.0,Uncalibrated,EF-S18-55mm f/4-5.6 IS STM
+52259516007,--,--,13.0,Not Defined,6400.0,Multi-segment,No Flash,27.0,Uncalibrated,EF-S18-55mm f/4-5.6 IS STM
+52260504378,--,--,13.0,Not Defined,6400.0,Multi-segment,No Flash,27.0,Uncalibrated,EF-S18-55mm f/4-5.6 IS STM
+52259514892,--,--,13.0,Not Defined,6400.0,Multi-segment,No Flash,27.0,Uncalibrated,EF-S18-55mm f/4-5.6 IS STM
+52259711661,--,--,13.0,Not Defined,6400.0,Multi-segment,No Flash,27.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52257704367,NIKON,COOLPIX P900,6.3,Manual,800.0,Multi-segment,"Off, Did not fire",250.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256144583,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",74.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256616825,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",84.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256144283,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",44.8,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255155237,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",98.3,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256389654,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",95.2,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256601055,Panasonic,DC-FZ82,5.2,Program AE,80.0,Multi-segment,"Off, Did not fire",22.4,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256127678,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",132.1,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256600410,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",95.2,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256600315,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",95.2,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256600205,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",95.2,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256388449,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",95.2,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255138562,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",71.7,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255138427,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",185.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256126673,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",185.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256126568,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",78.8,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256126418,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",132.1,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256126273,Panasonic,DC-FZ82,5.8,Program AE,80.0,Multi-segment,"Off, Did not fire",209.4,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256387279,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",139.4,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256102306,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",49.1,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256598720,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",49.1,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256102046,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",68.8,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256598490,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",36.8,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255136942,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",35.8,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256101646,Panasonic,DC-FZ82,5.8,Program AE,80.0,Multi-segment,"Off, Did not fire",206.4,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256386454,Panasonic,DC-FZ82,5.8,Program AE,80.0,Multi-segment,"Off, Did not fire",206.4,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255068837,HUAWEI,YAL-L21,2.2,Program AE,50.0,Multi-segment,Fired,2.2,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52254805582,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",164.2,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256269880,Panasonic,DC-FZ82,5.9,Program AE,80.0,Multi-segment,"Off, Did not fire",215.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255771916,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",143.4,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255794723,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",89.5,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256269470,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",132.1,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255771426,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",132.1,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256051124,Panasonic,DC-FZ82,5.7,Program AE,80.0,Multi-segment,"Off, Did not fire",198.9,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255791048,Panasonic,DC-FZ82,5.9,Program AE,80.0,Multi-segment,"Off, Did not fire",215.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255790918,Panasonic,DC-FZ82,5.9,Program AE,80.0,Multi-segment,"Off, Did not fire",215.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255767711,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",148.1,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255790678,Panasonic,DC-FZ82,5.5,Program AE,80.0,Multi-segment,"Off, Did not fire",35.8,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256265630,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",74.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52254800922,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",74.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52254800827,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",55.4,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256265175,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",78.8,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256261905,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",62.7,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256261775,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",84.0,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255786628,Panasonic,DC-FZ82,5.4,Program AE,100.0,Multi-segment,"Off, Did not fire",28.8,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255786518,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",121.9,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255763306,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",148.1,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255786208,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",92.3,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256261120,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",139.4,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255785998,Panasonic,DC-FZ82,5.5,Program AE,125.0,Multi-segment,"Off, Did not fire",36.8,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52256260940,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",95.2,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255785713,Panasonic,DC-FZ82,5.6,Program AE,80.0,Multi-segment,"Off, Did not fire",139.4,sRGB,EF-S18-55mm f/4-5.6 IS STM
+49727745503,Panasonic,DC-FZ82,2.2,Program AE,80.0,Multi-segment,No Flash,1.8,sRGB,EF-S18-55mm f/4-5.6 IS STM
+52255786683,Panasonic,DC-FZ82,5.6,Program AE,100.0,Multi-segment,"Off, Did not fire",60.8,sRGB,EF-S18-55mm f/4-5.6 IS STM

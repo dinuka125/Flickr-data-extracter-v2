@@ -1,8 +1,9 @@
 import os
 from telnetlib import STATUS
+from tkinter.tix import Tree
 import pandas as pd
 from flask import Flask, render_template, request, send_file
-from helper import date_checker1, get_pic, get_geo_info, get_camera_info,  out_dir, date_checker
+from helper import date_checker1, df_creator, get_camera_info_thread, get_geo_info_thread, get_pic_thread, get_geo_info, get_camera_info,  out_dir, date_checker
 from merge import merger
 from shutil import rmtree
 
@@ -42,11 +43,12 @@ def scrap():
                     date_status2 = date_checker(min_date, max_date)
                     
                     if date_status2 == True:
-                        get_pic(search_keyword,min_date=min_date,max_date=max_date)
-                        df_pic = pd.read_csv(out_dir +'/'+search_keyword+'_id.csv',sep=',')
-                        get_camera_info(search_keyword, df_pic)
-                        get_geo_info(search_keyword, df_pic)
-                        merger(search_keyword)
+                        get_pic_thread(search_keyword,min_date=min_date,max_date=max_date)
+                        df_pic = pd.read_csv(out_dir +'/'+search_keyword+'_id.csv',sep=',')   
+                        # df_creator(search_keyword)
+                        get_camera_info_thread(search_keyword,df_pic)
+                        get_geo_info_thread(search_keyword, df_pic)
+                        merger(search_keyword)   
                         return send_file("static"+"/"+search_keyword+"_Merged.csv", attachment_filename=search_keyword+"_Merged.csv")
 
                 
@@ -65,7 +67,8 @@ def scrap():
 
            
 
-
+if __name__ == '__main__':
+    app.run(host="0.0.0.0",port=5000, debug= True)   
 
     
 
