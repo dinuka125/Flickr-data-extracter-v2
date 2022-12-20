@@ -1,6 +1,8 @@
 import pandas as pd 
 import numpy as np
+import streamlit as st
 
+# out_dir = st.file_uploader("./static/")
 out_dir = "./static/"
 
 
@@ -194,4 +196,6 @@ def merger(keyword):
         merged_df["region"] = pd.Series("no_info")
         merged_df["country"] = pd.Series("no_info")
         merged_df.to_csv(final_path,sep=',',header=False ,index=False,mode='a')
+
+    return merged_df.to_csv(index=False)    
     

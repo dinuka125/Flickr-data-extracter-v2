@@ -3,18 +3,20 @@ import flickrapi
 from matplotlib.pyplot import get
 import pandas as pd
 from datetime import date
+from concurrent.futures import ThreadPoolExecutor, thread
 
 
-api_key ="add your api key here"
-api_secret = "add your api secret key here"
-min_date = '2018-01-01'
+api_key ="35883a31753987d251ef52f0cc2dcb79"
+api_secret = "29eebe28b4a9a808"
 out_dir = "static"
 
-flickr = flickrapi.FlickrAPI(api_key, api_secret, format='etree')
+
+
+
 
 def date_checker1(min_date, max_date):
     today = date.today()
-    if min_date and max_date <= str(today):
+    if str(min_date) and str(max_date) <= str(today):
         return True
     else:
         False    
@@ -38,7 +40,7 @@ def get_pic(tag,min_date,max_date):
             min_date = '2018-01-01'
         if max_date == "":
             max_date = '2018-01-02'  
-        photos=flickr.walk(tags=tag,extras='url_c,date_taken,owner_name',sort='interestingness-desc',content_type='1',min_upload_date =min_date ,max_upload_date =max_date)
+        photos=flickr.walk(text=tag,extras='url_c,date_taken,owner_name',sort='interestingness-desc',content_type='1',min_upload_date =min_date ,max_upload_date =max_date)
     except Exception as e:
         print(e)
     
@@ -84,22 +86,50 @@ def get_pic(tag,min_date,max_date):
        
     return
 
+def get_pic_thread(tag,min_date,max_date):
+    with ThreadPoolExecutor(max_workers=100) as executor:
+        executor.submit(get_pic, tag, min_date, max_date)
 
-def get_camera_info(search_keyword, df_pic):
+def df_creator(search_keyword):
     df_info = pd.DataFrame(columns=['pic_id','Camera_Make','Camera_Model',
                                     'Aperture','Exposure_Program',
                                     'ISO','Metering_Mode','Flash','Focal_Length',
                                     'Color_Space','Lens_Model'])
     file_name = search_keyword+"_camera.csv"
     full_name = out_dir + '/' + file_name
-    df_info.to_csv(full_name, sep=",", index=None)                          
+    df_info.to_csv(full_name, sep=",", index=None) 
+    return full_name
+    
 
-    df_pic_list = df_pic['pic_id'].tolist()
-    for i in range(len(df_pic_list)):
+def get_camera_info(full_name,df_list_item,df_pic,i,df_info):
+    print("Full name at get camera info:",full_name)
+                             
+    try:
+        flickr = flickrapi.FlickrAPI(api_key, api_secret, format='parsed-json')
+        exif = flickr.photos.getExif(photo_id=df_list_item)
+        print(full_name)
+        get_info(full_name,exif,df_pic,i,df_info)          
+
+    except Exception as e:
+        print("API limit reached at Camera Info :: ",e)    
+       
+
+def get_info(search_keyword,df_pic):
+    df_info = pd.DataFrame(columns=['pic_id','Camera_Make','Camera_Model',
+                                    'Aperture','Exposure_Program',
+                                    'ISO','Metering_Mode','Flash','Focal_Length',
+                                    'Color_Space','Lens_Model'])
+    file_name = search_keyword+"_camera.csv"
+    full_name = out_dir + '/' + file_name
+    df_info.to_csv(full_name, sep=",", index=None) 
+
+    
+    df_list = df_pic['pic_id'].tolist()
+    for i in range(len(df_list)):
         try:
             flickr = flickrapi.FlickrAPI(api_key, api_secret, format='parsed-json')
-            # exif = flickr.photos.getExif(photo_id=df_pic['pic_id'].iloc[i])
-            exif = flickr.photos.getExif(photo_id=df_pic_list[i])
+            exif = flickr.photos.getExif(photo_id=df_list[i])
+
             info_get = exif['photo']['exif']
             for info in info_get:
                 if info['label'] == 'Make':
@@ -123,20 +153,27 @@ def get_camera_info(search_keyword, df_pic):
                 elif info['label'] == 'Lens Model':
                     df_info['Lens_Model'] = pd.Series(info['raw']['_content'])
                 elif info['label'] == "" :
-                       df_info['Lens_Model'] = pd.Series("No_info")
+                        df_info['Lens_Model'] = pd.Series("No_info")
                 
             df_info['pic_id'] = df_pic['pic_id'].iloc[i]
-            df_info.to_csv(full_name,sep=',',index=None,header=None,mode='a')          
+            df_info.to_csv(full_name,sep=',',index=None,header=None,mode='a')       
 
         except Exception as e:
-            print("API limit reached at Camera Info :: ",e)             
+            print("API limit reached at Camera Info :: ",e)  
+                  
                 
-
+def get_camera_info_thread( search_keyword,df_pic):
+    with ThreadPoolExecutor(max_workers=100) as executor:
+        executor.submit(get_info,search_keyword,df_pic)
+        
+        
+        
+            
 def get_geo_info(search_keyword, df_pic):
     file_name = search_keyword+"_geo.csv"
     full_name = out_dir + '/' + file_name
-    df_info = pd.DataFrame(columns=['pic_id','latitude','longitude','county','region','country'])
-    df_info.to_csv(full_name, sep=",", index=None)
+    df_info_geo = pd.DataFrame(columns=['pic_id','latitude','longitude','county','region','country'])
+    df_info_geo.to_csv(full_name, sep=",", index=None)
 
     df_pic_list = df_pic['pic_id'].tolist()
     for i in range(len(df_pic_list)):
@@ -147,25 +184,27 @@ def get_geo_info(search_keyword, df_pic):
             geo = pic_geo['photo']['location']
 
             for loc in geo:
-                df_info['pic_id'] = df_pic['pic_id'][i]
+                df_info_geo['pic_id'] = df_pic['pic_id'][i]
                 if loc == 'latitude':
-                    df_info[loc] = pd.Series(geo[loc])
+                    df_info_geo[loc] = pd.Series(geo[loc])
                 if loc == 'longitude':
-                    df_info[loc] = pd.Series(geo[loc])
+                    df_info_geo[loc] = pd.Series(geo[loc])
                 if loc == 'county':
-                    df_info[loc] = pd.Series(geo[loc]['_content'])
+                    df_info_geo[loc] = pd.Series(geo[loc]['_content'])
                 if loc == 'region':
-                    df_info[loc] = pd.Series(geo[loc]['_content'])
+                    df_info_geo[loc] = pd.Series(geo[loc]['_content'])
                 if loc == 'country':
-                    df_info[loc] = pd.Series(geo[loc]['_content'])
+                    df_info_geo[loc] = pd.Series(geo[loc]['_content'])
 
-            df_info.to_csv(full_name,sep=',',index=False,header=None,mode='a')     
+            df_info_geo.to_csv(full_name,sep=',',index=False,header=None,mode='a')     
 
         except Exception as e:
             print("No geo info for this pic at geo :: ",e)
             pass  
 
-   
+def get_geo_info_thread(search_keyword, df_pic):
+    with ThreadPoolExecutor(max_workers=100) as executor:
+        executor.submit(get_geo_info,search_keyword, df_pic )     
 
 
 # def merge(search_keyword):
