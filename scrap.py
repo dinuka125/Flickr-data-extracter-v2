@@ -1,7 +1,5 @@
 import streamlit as st
 import os
-from telnetlib import STATUS
-from tkinter.tix import Tree
 import pandas as pd
 from helper import date_checker1, df_creator, get_camera_info_thread, get_geo_info_thread, get_pic_thread, get_geo_info, get_camera_info,  out_dir, date_checker
 from merge import merger
