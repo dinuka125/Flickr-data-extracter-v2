@@ -5,7 +5,7 @@ from helper import date_checker1, df_creator, get_camera_info_thread, get_geo_in
 from merge import merger
 from shutil import rmtree
 
-@st.cache
+
 def scrapy(search_keyword,max_date,min_date):
     try:
         if search_keyword != '':
