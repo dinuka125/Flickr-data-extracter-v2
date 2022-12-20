@@ -1,6 +1,5 @@
 from multiprocessing.connection import wait
 import flickrapi
-from matplotlib.pyplot import get
 import pandas as pd
 from datetime import date
 from concurrent.futures import ThreadPoolExecutor, thread
